@@ -1,0 +1,31 @@
+{
+  "sharedModules": [],
+  "federatedModules": [
+    {
+      "remote": "layout_remote",
+      "entry": "static/chunks/remoteEntry.js",
+      "sharedModules": [],
+      "exposes": {
+        "./Layout": [
+          "static/chunks/__federation_expose_Layout.e17339b8c086b51c.js"
+        ],
+        "./Header": [
+          "static/chunks/__federation_expose_Header.21bea4b8faafc94d.js"
+        ],
+        "./Sidebar": [
+          "static/chunks/__federation_expose_Sidebar.f176e8e8023184cd.js"
+        ]
+      },
+      "remoteModules": {
+        "shared_remote/Button": 7520,
+        "shared_remote/store": 4143,
+        "shared_remote/useRemoteCSS": 7416,
+        "shared_remote/Skeleton": 2129,
+        "shared_remote/apiHelper": 5884
+      }
+    }
+  ],
+  "globalCSS": [
+    "/mf-layout/styles/layout-tailwind.css"
+  ]
+}
