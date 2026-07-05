@@ -60,7 +60,7 @@ export default function Sidebar({
                 NeoCentra
               </span>
               <span className="text-[10px] text-teal-500 font-bold tracking-wider uppercase">
-                Backoffice v1.7
+                Backoffice v1.8
               </span>
             </div>
           )}

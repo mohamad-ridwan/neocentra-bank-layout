@@ -8,10 +8,6 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  React.useEffect(() => {
-    console.log("Layout component initialized");
-  }, []);
-
   return (
     <Suspense fallback={<LayoutSkeleton />}>
       <LayoutViewWrapper>{children}</LayoutViewWrapper>
